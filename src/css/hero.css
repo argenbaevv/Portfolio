@@ -1,0 +1,75 @@
+.hero {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  padding: 80px 0 100px 0px;    
+}
+
+.works-list {
+  height: 100%;
+  width: 100vw;
+  overflow-x: scroll; 
+  display: flex;
+  list-style: none;
+  padding: 200px 0 0 0;
+}
+
+.works-list::-webkit-scrollbar {
+  width: 0em;
+}
+
+
+.works-item {
+  padding: 0 50px 0 20px;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+}
+
+.works-item a {
+  text-decoration: none;
+  font-size: 92px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: .5px var(--white);
+}
+
+.works-item span {
+  margin-right: 9px;
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.works-desk {
+  visibility: hidden;
+  position: absolute;
+  bottom: 180px;
+  left: 50px;
+}
+
+.desk-line {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+}
+
+.works-item a:hover {
+  color: white;
+}
+.works-item:hover .works-desk {
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
